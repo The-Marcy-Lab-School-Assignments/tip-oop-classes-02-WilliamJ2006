@@ -21,7 +21,7 @@ class Song {
     return this.#rating;
   }
   play() {
-    this.#playCount += 1;
+    this.#playCount++;
     console.log(`Now playing: ${this.title} by ${this.artist}`)
   }
   rate(stars) {

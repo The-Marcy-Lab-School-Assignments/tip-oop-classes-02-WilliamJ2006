@@ -15,10 +15,12 @@ class Song {
     Song.playlist.push(this);
   }
   get playCount() {
-    return this.#playCount;
+    let count = this.#playCount;
+    return count;
   }
   get rating() {
-    return this.#rating;
+    let rate = this.#rating;
+    return rate;
   }
   play() {
     this.#playCount++;
